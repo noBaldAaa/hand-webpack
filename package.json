@@ -1,0 +1,23 @@
+{
+  "name": "hand-webpack",
+  "version": "1.0.0",
+  "description": "手写webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noBaldAaa/hand-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noBaldAaa/hand-webpack/issues"
+  },
+  "homepage": "https://github.com/noBaldAaa/hand-webpack#readme",
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
