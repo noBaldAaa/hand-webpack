@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/noBaldAaa/hand-webpack#readme",
   "dependencies": {
+    "@babel/core": "^7.20.2",
+    "tapable": "^2.2.1",
     "webpack": "^5.75.0"
   }
 }
