@@ -1,0 +1,11 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["<%-chunkName%>"], {
+    <%
+    for(let module of modules)
+    {%>
+        "<%-module.moduleId%>":
+        (function (module, exports, __webpack_require__) {
+          <%-module._source%>
+        }),
+    <%}
+  %> 
+  }]);
